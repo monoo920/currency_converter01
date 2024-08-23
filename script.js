@@ -39,8 +39,6 @@ btn.addEventListener('click', async(ev)=>{
 
     }
 
-
-
      const url=`${baseUrl}/${fromCurr.value.toLowerCase()}/${toCurr.value.toLowerCase()}.json`;
      let response =await fetch(url)
      console.log(response)
